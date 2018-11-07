@@ -9,7 +9,7 @@ import java.util.Date;
 public class HelloController {
     @GetMapping("/api/hello")
     public String hello() {
-        return "Hello, the time at the server is now " + new Date() + "\n";
+        return "Hello, welcome to Grafito at " + new Date() + "\n";
     }
 }
 
